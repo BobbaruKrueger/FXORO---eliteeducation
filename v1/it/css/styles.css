@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:400,700,800');
+
+body {
+    background-color: #fff;
+    color: #9fa1ad;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    position: relative;
+    /*display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;*/
+    padding-top: 30px;
+    background-image: url(../img/top-background.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+.cta {
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.cta h1 {
+    font-size: 36px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.cta h1 span {
+    display: block;
+    color: #f0ab3b;
+}
+
+.cta p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cta p span {
+    color: #f0ab3b;
+}
+
+.services {
+    color: #fff;
+}
+
+.services p {
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.services ul {
+    padding-left: 0px;
+}
+
+.services ul li {
+    font-size: 14px;
+    font-weight: 700;
+    list-style: none;
+    line-height: 1;
+    background: url(../img/checkmark.png) no-repeat top left;
+    padding-left: 30px;
+    height: 17px;
+    display: block;
+    padding-top: 1px;
+}
+
+.phones img {
+    right: 200px;
+}
+
+.registration {
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+    padding: 50px;
+    z-index: 99;
+    top: -100px;
+    padding-bottom: 30px;
+}
+
+.registration h2 {
+    color: #151617;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+input,
+select {
+    outline-style: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: transparent;
+    outline: none;
+    overflow: visible;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #9fa1ad;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    background: #fff;
+
+}
+
+input:focus,
+select:focus {
+    color: #151617;
+    border: 1px solid #f0ab3b;
+    -webkit-box-shadow: 0 0 7px rgba(240, 171, 59, 0.35);
+    box-shadow: 0 0 7px rgba(240, 171, 59, 0.35);
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+
+.form-submit-button button,
+formcheckmain {
+    outline-style: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #f0ab3b;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 7px rgba(240, 171, 59, 0.35);
+    box-shadow: 0 0 7px rgba(240, 171, 59, 0.35);
+    width: 100%;
+    border: 0;
+    padding: 15px 20px 15px 20px;
+}
+
+.formcheckmain {
+    display: none;
+    text-align: center;
+    opacity: .5;
+}
+
+input.phoneprefixclass.phone-prefix {
+    width: 30%;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+    border-right: none;
+    background-color: #f5f5f5;
+}
+
+input.phonenumberclass.phone-number {
+    width: 70%;
+    border-radius: 0px 5px 5px 0px;
+    border-left: none;
+}
+
+.agreement {
+    font-size: 12px;
+}
+
+#agreeinput {
+    width: auto;
+    height: auto;
+}
+
+label input {
+    vertical-align: middle;
+}
+
+.termsc {
+    margin-top: 263px;
+}
+
+.inputerror,
+.agreementerror {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+
+.agreementerror {
+    padding-bottom: 0px;
+}
+
+
+@media only screen and (max-width: 1536px) {
+    .phones img {
+        right: 63px;
+    }
+}
+
+@media only screen and (max-width: 1536px) {
+    .phones img {
+        right: -5px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .cta {
+        color: #fff;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .services ul {
+        margin-bottom: 10px;
+    }
+
+    .registration {
+        top: -140px;
+    }
+
+    .termsc {
+        margin-top: 245px;
+    }
+
+    input.phonenumberclass.phone-number {
+        width: 60%;
+    }
+
+    input.phoneprefixclass.phone-prefix {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    input.phonenumberclass.phone-number {
+        width: 70%;
+    }
+
+    input.phoneprefixclass.phone-prefix {
+        width: 30%;
+    }
+
+    .agreement label {
+        padding-top: 15px;
+    }
+
+    .termsc {
+        margin-top: 560px;
+    }
+}
+
+@media only screen and (max-width: 458px) {
+    .termsc {
+        margin-top: 580px;
+    }
+}
+
+@media only screen and (max-width: 398px) {
+    .termsc {
+        margin-top: 620px;
+    }
+}
+
+@media only screen and (max-width: 357px) {
+    .termsc {
+        margin-top: 650px;
+    }
+}
